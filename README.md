@@ -22,11 +22,9 @@ Expected data folder structure:
 
 ## Setup Instructions
 
-## Setup Instructions
-
 ### Clone the Repository
 git clone <https://github.com/LevelUp-Applied-AI/m1-l1-git-workflows-RawanQuraish.git>
-cd aispire-foundations
+git checkout -b integration/collab-setup
 
 ### Create and Activate Virtual Environment
 python -m venv .venv
@@ -38,6 +36,20 @@ python test_environment.py
 
 Expected output:
 Environment OK
+## Project Structure
+project-name/
+├── README.md             — Project overview and setup instructions
+├── CHANGELOG.md          — Record of notable changes
+├── AGENTS.md             — AI contribution policy
+├── requirements.txt      — Python dependencies
+├── setup.sh              — Automated environment setup script
+├── test_environment.py   — Environment validation
+├── .gitignore            — Files excluded from version control
+├── src/                  — Production source code (importable modules)
+├── notebooks/            — Exploratory analysis notebooks
+├── data/                 — Data directory (contents not committed to Git)
+│   └── raw/              — Original unmodified data files
+└── tests/                — Automated tests
 ## Contributing
 
 - Branch naming: `setup/`, `feature/`, `fix/`
