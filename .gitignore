@@ -3,6 +3,13 @@
 *.key
 *.pem
 
+# Python / environments
+.venv/
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
 # Data files (never commit raw data to Git)
 *.csv
 *.parquet
