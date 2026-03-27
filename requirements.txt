@@ -2,3 +2,4 @@
 # Example:
   pandas
   matplotlib
+  numpy
