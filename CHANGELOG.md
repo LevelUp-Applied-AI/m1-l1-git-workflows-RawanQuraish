@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [2026-03-11] — Initial project setup
+## [2026-03-25] — Initial project setup
 
 ### Added
 - Project scaffold: README.md, .gitignore, requirements.txt, setup.sh
@@ -9,5 +9,5 @@
 - CHANGELOG.md: this file
 
 ### Notes
-- Environment: Python 3.11, venv, pandas + matplotlib
+- Environment: Python 3.13.12, venv, pandas + matplotlib
 - Repository created for hospital admission records analysis project
